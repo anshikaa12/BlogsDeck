@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "386027960784",
+    "project_id": "blogsdeck",
+    "storage_bucket": "blogsdeck.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:386027960784:android:0d7763c701c0d428b521d5",
+        "android_client_info": {
+          "package_name": "anshikaagarwal.blog_app_final"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "386027960784-vhjk72lmgoop508tgpqqud6sm3cvug7b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBl1L_DKp9Z0qQtsHenmX0iVDJxbN0bKqE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "386027960784-vhjk72lmgoop508tgpqqud6sm3cvug7b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
