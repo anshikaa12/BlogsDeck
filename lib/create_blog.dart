@@ -42,7 +42,7 @@ class _CreateBlogState extends State<CreateBlog> {
       });
       firebase_storage.Reference ref =
       firebase_storage.FirebaseStorage.instance.ref().child("BlogImages")
-          .child("{$randomAlphaNumeric(9)}.jpg");
+          .child("${randomAlphaNumeric(9)}.jpg");
       final firebase_storage.UploadTask task= ref.putFile(selectedImage);
       var downloadUrl= await (await task).ref.getDownloadURL();
       if(downloadUrl==null){
@@ -55,8 +55,6 @@ class _CreateBlogState extends State<CreateBlog> {
         "AuthorName": AuthorNAme,
         "description":Desc,
         "title":Title
-
-
       };
       crudMethods.addData(BlogMAp).then((result){
         Navigator.pop(context);

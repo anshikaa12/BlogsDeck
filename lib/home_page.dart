@@ -27,7 +27,7 @@ class _HomePageState extends State<HomePage> {
 
                 builder: (context, snapshot){
                   return ListView.builder   (
-                    
+
                     physics: NeverScrollableScrollPhysics(),
                       shrinkWrap: true,
                       itemCount: snapshot.data.docs.length,
